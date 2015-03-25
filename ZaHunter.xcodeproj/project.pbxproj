@@ -14,6 +14,9 @@
 		147BBCA71AC3340E00D59314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147BBCA61AC3340E00D59314 /* Images.xcassets */; };
 		147BBCAA1AC3340E00D59314 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147BBCA81AC3340E00D59314 /* LaunchScreen.xib */; };
 		147BBCB61AC3340E00D59314 /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 147BBCB51AC3340E00D59314 /* ZaHunterTests.m */; };
+		147BBCC31AC3379400D59314 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147BBCC21AC3379400D59314 /* CoreLocation.framework */; };
+		147BBCC61AC33F7300D59314 /* PizzaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147BBCC51AC33F7300D59314 /* PizzaViewController.m */; };
+		147BBCC91AC3405500D59314 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 147BBCC81AC3405500D59314 /* Pizza.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		147BBCAF1AC3340E00D59314 /* ZaHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		147BBCB41AC3340E00D59314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		147BBCB51AC3340E00D59314 /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		147BBCC21AC3379400D59314 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		147BBCC41AC33F7300D59314 /* PizzaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaViewController.h; path = ../PizzaViewController.h; sourceTree = "<group>"; };
+		147BBCC51AC33F7300D59314 /* PizzaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaViewController.m; path = ../PizzaViewController.m; sourceTree = "<group>"; };
+		147BBCC71AC3405500D59314 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pizza.h; path = ../Pizza.h; sourceTree = "<group>"; };
+		147BBCC81AC3405500D59314 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pizza.m; path = ../Pizza.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147BBCC31AC3379400D59314 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		147BBC8D1AC3340E00D59314 = {
 			isa = PBXGroup;
 			children = (
+				147BBCC21AC3379400D59314 /* CoreLocation.framework */,
 				147BBC981AC3340E00D59314 /* ZaHunter */,
 				147BBCB21AC3340E00D59314 /* ZaHunterTests */,
 				147BBC971AC3340E00D59314 /* Products */,
@@ -85,6 +95,10 @@
 				147BBC9E1AC3340E00D59314 /* AppDelegate.m */,
 				147BBCA01AC3340E00D59314 /* ViewController.h */,
 				147BBCA11AC3340E00D59314 /* ViewController.m */,
+				147BBCC41AC33F7300D59314 /* PizzaViewController.h */,
+				147BBCC51AC33F7300D59314 /* PizzaViewController.m */,
+				147BBCC71AC3405500D59314 /* Pizza.h */,
+				147BBCC81AC3405500D59314 /* Pizza.m */,
 				147BBCA31AC3340E00D59314 /* Main.storyboard */,
 				147BBCA61AC3340E00D59314 /* Images.xcassets */,
 				147BBCA81AC3340E00D59314 /* LaunchScreen.xib */,
@@ -220,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				147BBCA21AC3340E00D59314 /* ViewController.m in Sources */,
+				147BBCC61AC33F7300D59314 /* PizzaViewController.m in Sources */,
 				147BBC9F1AC3340E00D59314 /* AppDelegate.m in Sources */,
+				147BBCC91AC3405500D59314 /* Pizza.m in Sources */,
 				147BBC9C1AC3340E00D59314 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
